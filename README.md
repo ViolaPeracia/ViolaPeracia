@@ -21,17 +21,6 @@ CS student who learns by building from scratch. I spend most of my time in the t
 
 ---
 
-### `> building`
-
-- **[ZenLavaTerm](https://github.com/githubuser2777/ZenLavaTerm)** — Terminal lava lamp and metaball fluid visualizer in Rust with ANSI/Braille rendering engines.
-- **[fetch-win](https://github.com/githubuser2777/fetch-win)** — 3D terminal fetch tool rendering rotating ASCII point clouds with live system telemetry in C.
-- **[ZenKeyCount](https://github.com/githubuser2777/ZenKeyCount)** — Lightweight, privacy-first desktop interaction observatory built with Rust, Tauri v2, and SQLite.
-- **[ZenSec](https://github.com/githubuser2777/ZenSec)** — Fast, zero-dependency CLI file encryption utility using stream-based AES-256-GCM in Go.
-- **[ZenYT](https://github.com/githubuser2777/ZenYT)** — Minimalist desktop YouTube downloader wrapping `yt-dlp` in a native webview GUI (<10MB).
-- **[ZenFlashCard](https://github.com/githubuser2777/ZenFlashCard)** — Distraction-free mobile spaced-repetition flashcard app implementing the SM-2 algorithm.
-
----
-
 ### `> interests`
 
 - Systems programming & OS-level primitives
@@ -48,7 +37,9 @@ CS student who learns by building from scratch. I spend most of my time in the t
 
 ---
 
-### `> stats`
+```bash
+$ gh stats --user githubuser2777
+```
 
 <div align="center">
   <img height="150" src="https://github-readme-stats-three-beryl-52.vercel.app/api?username=githubuser2777&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&title_color=00ff99&text_color=a9b1d6&icon_color=00ff99&bg_color=0d1117" alt="GitHub Stats" />
@@ -57,11 +48,15 @@ CS student who learns by building from scratch. I spend most of my time in the t
 
 <br/>
 
+```bash
+$ git log --graph --oneline  # contribution graph
+```
+
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/githubuser2777/githubuser2777/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/githubuser2777/githubuser2777/output/github-contribution-grid-snake.svg" />
-    <img alt="Contribution Snake" src="https://raw.githubusercontent.com/githubuser2777/githubuser2777/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: dark)" srcset="./profile/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./profile/github-contribution-grid-snake.svg" />
+    <img alt="Contribution Snake" src="./profile/github-contribution-grid-snake-dark.svg" />
   </picture>
 </div>
 
