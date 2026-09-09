@@ -6,7 +6,7 @@
   </p>
 
   <p align="center">
-    <code>Fedora Linux</code> &nbsp;·&nbsp; <code>Rust</code> &nbsp;·&nbsp; <code>Go</code> &nbsp;·&nbsp; <code>Tauri</code> &nbsp;·&nbsp; <code>Local-First</code>
+    <code>Arch Linux</code> &nbsp;·&nbsp; <code>Windows</code> &nbsp;·&nbsp; <code>Rust</code> &nbsp;·&nbsp; <code>Go</code> &nbsp;·&nbsp; <code>Tauri</code> &nbsp;·&nbsp; <code>Local-First</code>
   </p>
 </div>
 
@@ -20,13 +20,12 @@ Computer Science student and systems builder learning by implementing from scrat
 
 ## `~/focus`
 
-```text
-┌── ACTIVE TRACKS ──────────────────────────────────────────────────┐
-│  01 // SYSTEMS     Low-level concurrency & memory safety in Rust & Go │
-│  02 // CLI & TUI   High-performance terminal graphics & ANSI engines   │
-│  03 // PRIVACY     Local-first architectures & stream-based encryption │
-│  04 // PLATFORM    Lightweight desktop utilities via Tauri v2 & IPC    │
-└───────────────────────────────────────────────────────────────────┘
+```bash
+$ cat ~/.focus
+[01] SYSTEMS     Low-level concurrency & memory safety in Rust and Go
+[02] CLI & TUI   High-performance terminal graphics & ANSI engines
+[03] PRIVACY     Local-first architectures & stream-based encryption
+[04] PLATFORM    Lightweight desktop utilities via Tauri v2 & IPC
 ```
 
 ---
@@ -41,7 +40,7 @@ Computer Science student and systems builder learning by implementing from scrat
 <sub><code>Rust</code> · <code>crossterm</code> · <code>Criterion</code> · <code>ANSI</code></sub>
 </td>
 <td width="50%" valign="top">
-<h4><a href="https://github.com/githubuser2777/fetch-win">fetch-win</a></h4>
+<h4><a href="https://github.com/githubuser2777/fetch-win">fetch-win (fork)</a></h4>
 <p>3D terminal fetch tool rendering rotating ASCII point clouds with live system telemetry.</p>
 <sub><code>C</code> · <code>CMake</code> · <code>Win32 API</code> · <code>3D Math</code></sub>
 </td>
@@ -53,21 +52,9 @@ Computer Science student and systems builder learning by implementing from scrat
 <sub><code>Rust</code> · <code>Tauri v2</code> · <code>TypeScript</code> · <code>SQLite</code></sub>
 </td>
 <td width="50%" valign="top">
-<h4><a href="https://github.com/githubuser2777/ZenSec">ZenSec</a></h4>
-<p>Zero-dependency CLI utility for stream-based authenticated file encryption and decryption.</p>
-<sub><code>Go</code> · <code>crypto/cipher</code> · <code>AES-256-GCM</code> · <code>CLI</code></sub>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<h4><a href="https://github.com/githubuser2777/ZenYT">ZenYT</a></h4>
-<p>Lightweight desktop YouTube downloader wrapping <code>yt-dlp</code> in a native webview GUI.</p>
-<sub><code>Rust</code> · <code>Tauri v2</code> · <code>React</code> · <code>yt-dlp</code></sub>
-</td>
-<td width="50%" valign="top">
-<h4><a href="https://github.com/githubuser2777/ZenFlashCard">ZenFlashCard</a></h4>
-<p>Distraction-free mobile spaced repetition study app implementing SuperMemo SM-2.</p>
-<sub><code>Flutter</code> · <code>Dart</code> · <code>SQLite</code> · <code>SM-2</code></sub>
+<h4><a href="https://github.com/githubuser2777/password-manager-cli">password-manager-cli</a></h4>
+<p>Secure command-line password manager with Argon2id derivation and AES-256-GCM encryption.</p>
+<sub><code>Go</code> · <code>Argon2id</code> · <code>AES-256-GCM</code> · <code>Bubble Tea</code></sub>
 </td>
 </tr>
 </table>
@@ -80,7 +67,7 @@ Computer Science student and systems builder learning by implementing from scrat
 | :--- | :--- |
 | **Core Languages** | `Rust` &nbsp;·&nbsp; `Go` &nbsp;·&nbsp; `TypeScript` &nbsp;·&nbsp; `C` &nbsp;·&nbsp; `Python` &nbsp;·&nbsp; `Dart` |
 | **Ecosystem & UI** | `Tauri v2` &nbsp;·&nbsp; `React` &nbsp;·&nbsp; `Flutter` &nbsp;·&nbsp; `Bubble Tea (TUI)` |
-| **Systems & Tools** | `Linux (Fedora)` &nbsp;·&nbsp; `Git` &nbsp;·&nbsp; `GitHub Actions` &nbsp;·&nbsp; `CMake` &nbsp;·&nbsp; `SQLite` |
+| **Systems & Tools** | `Arch Linux` &nbsp;·&nbsp; `Windows` &nbsp;·&nbsp; `Git` &nbsp;·&nbsp; `GitHub Actions` &nbsp;·&nbsp; `CMake` &nbsp;·&nbsp; `SQLite` |
 
 ---
 
