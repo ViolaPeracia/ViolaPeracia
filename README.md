@@ -35,24 +35,24 @@ $ cat ~/.focus
 <table width="100%">
 <tr>
 <td width="50%" valign="top">
-<h4><a href="https://github.com/githubuser2777/ZenLavaTerm">ZenLavaTerm</a></h4>
+<h4><a href="https://github.com/ViolaPeracia/ZenLavaTerm">ZenLavaTerm</a></h4>
 <p>Terminal-native lava lamp and metaball fluid visualizer with ANSI/Braille rendering engines.</p>
 <sub><code>Rust</code> · <code>crossterm</code> · <code>Criterion</code> · <code>ANSI</code></sub>
 </td>
 <td width="50%" valign="top">
-<h4><a href="https://github.com/githubuser2777/fetch-win">fetch-win (fork)</a></h4>
+<h4><a href="https://github.com/ViolaPeracia/fetch-win">fetch-win (fork)</a></h4>
 <p>3D terminal fetch tool rendering rotating ASCII point clouds with live system telemetry.</p>
 <sub><code>C</code> · <code>CMake</code> · <code>Win32 API</code> · <code>3D Math</code></sub>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<h4><a href="https://github.com/githubuser2777/ZenKeyCount">ZenKeyCount</a></h4>
+<h4><a href="https://github.com/ViolaPeracia/ZenKeyCount">ZenKeyCount</a></h4>
 <p>Local-first desktop activity observatory tracking interaction patterns without content inspection.</p>
 <sub><code>Rust</code> · <code>Tauri v2</code> · <code>TypeScript</code> · <code>SQLite</code></sub>
 </td>
 <td width="50%" valign="top">
-<h4><a href="https://github.com/githubuser2777/password-manager-cli">password-manager-cli</a></h4>
+<h4><a href="https://github.com/ViolaPeracia/password-manager-cli">password-manager-cli</a></h4>
 <p>Secure command-line password manager with Argon2id derivation and AES-256-GCM encryption.</p>
 <sub><code>Go</code> · <code>Argon2id</code> · <code>AES-256-GCM</code> · <code>Bubble Tea</code></sub>
 </td>
@@ -84,12 +84,12 @@ $ cat ~/.focus
 ## `~/activity`
 
 ```bash
-$ gh stats --user githubuser2777
+$ gh stats --user ViolaPeracia
 ```
 
 <div align="center">
-  <img height="150" src="https://github-readme-stats-three-beryl-52.vercel.app/api?username=githubuser2777&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&title_color=00ff99&text_color=a9b1d6&icon_color=00ff99&bg_color=0d1117" alt="GitHub Stats" />
-  <img height="150" src="https://github-readme-stats-three-beryl-52.vercel.app/api/top-langs/?username=githubuser2777&layout=compact&theme=tokyonight&hide_border=true&title_color=00ff99&text_color=a9b1d6&bg_color=0d1117" alt="Top Languages" />
+  <img height="150" src="https://github-readme-stats-three-beryl-52.vercel.app/api?username=ViolaPeracia&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&title_color=00ff99&text_color=a9b1d6&icon_color=00ff99&bg_color=0d1117" alt="GitHub Stats" />
+  <img height="150" src="https://github-readme-stats-three-beryl-52.vercel.app/api/top-langs/?username=ViolaPeracia&layout=compact&theme=tokyonight&hide_border=true&title_color=00ff99&text_color=a9b1d6&bg_color=0d1117" alt="Top Languages" />
 </div>
 
 <br/>
