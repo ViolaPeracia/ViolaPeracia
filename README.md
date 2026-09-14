@@ -94,6 +94,12 @@ $ gh stats --user ViolaPeracia
 
 <br/>
 
+<div align="center">
+  <img src="./profile/streak.svg" alt="Streak Stats" />
+</div>
+
+<br/>
+
 ```bash
 $ git log --graph --oneline  # contribution activity
 ```
