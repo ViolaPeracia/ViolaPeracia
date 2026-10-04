@@ -1,16 +1,16 @@
 ```text
- _                                
-| |_ _  _ _ _  __ _ __ ___  ___ __
-| ' \ || | ' \/ _` |\ V / || \ \ /
-|_||_\_,_|_||_\__, |_\_/ \_,_/_\_\
-              |___/___|            
+ _  _               __   __
+| || |_  _ _ _  __ _\ \ / /  ___ __
+| __ | || | ' \/ _` |\ V / || \ \ /
+|_||_|\_,_|_||_\__, |_\_/ \_,_/_\_\
+               |___/___|
 ```
 
 <div align="center">
 
-**hung_vux** — computer science student & systems builder
+**Hung_Vux** — computer science student & systems builder
 
-`arch linux` · `rust` · `go` · `c` · `tauri` · `local-first`
+`arch linux` · `rust` · `c` · `python` · `jupyter` · `local-first`
 
 </div>
 
@@ -27,7 +27,7 @@ Terminal lava lamp & metaball visualizer
 </td>
 <td width="33%" valign="top">
 
-**[fetch-win](https://github.com/ViolaPeracia/fetch-win)**
+**[fetch-win](https://github.com/ViolaPeracia/fetch-win)** *(fork)*
 
 3D terminal fetch with live system telemetry
 
@@ -36,19 +36,44 @@ Terminal lava lamp & metaball visualizer
 </td>
 <td width="33%" valign="top">
 
-**[password-manager-cli](https://github.com/ViolaPeracia/password-manager-cli)**
+**[ZenRPC](https://github.com/ViolaPeracia/ZenRPC)**
 
-Password store with Argon2id + AES-256-GCM
+Discord Rich Presence from your active window
 
-`go`
+`python`
+
+</td>
+</tr>
+</table>
+
+#### Contributor
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**[air-pollution-analysis](https://github.com/doctor-cato/air-pollution-analysis)** *(contributor)*
+
+Time-series air pollution analysis — Hanoi
+
+`jupyter`
+
+</td>
+<td width="50%" valign="top">
+
+**[web-application-development](https://github.com/doctor-cato/web-application-development)** *(contributor)*
+
+3HD2Kcinema — cinema booking web app
+
+`html` · `js`
 
 </td>
 </tr>
 </table>
 
 <details>
-<summary>stats</summary>
+<summary>streak</summary>
 
-![ViolaPeracia's GitHub stats](https://github-readme-stats-three-beryl-52.vercel.app/api?username=ViolaPeracia&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&title_color=00ff99&text_color=a9b1d6&icon_color=00ff99&bg_color=0d1117)
+![ViolaPeracia's contribution streak](./profile/streak.svg)
 
 </details>
