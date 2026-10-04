@@ -18,7 +18,11 @@ jobs:
       contents: write
 
     steps:
+      # Pinned to main so a manual dispatch on another ref still regenerates and
+      # commits to main; the sync job below owns the other branches.
       - uses: actions/checkout@v4
+        with:
+          ref: main
 
       - name: Generate streak stats
         uses: DenverCoder1/github-readme-streak-stats@main

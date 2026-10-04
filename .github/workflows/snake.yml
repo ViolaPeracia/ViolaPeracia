@@ -23,7 +23,11 @@ jobs:
     timeout-minutes: 5
 
     steps:
+      # Pinned to main so a manual dispatch on another ref still regenerates and
+      # commits to main; the sync job below owns the other branches.
       - uses: actions/checkout@v4
+        with:
+          ref: main
 
       # Generates a snake game from a github user (<github_user_name>) contributions graph, output a svg animation at <svg_out_path>
       - name: Generate github-contribution-grid-snake.svg
