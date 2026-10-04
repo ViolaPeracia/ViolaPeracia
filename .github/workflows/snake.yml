@@ -1,21 +1,22 @@
 name: Generate Snake Animation
 
 on:
-  # Run automatically every 24 hours
+  # Run automatically every 24 hours. Scheduled workflows only execute from the
+  # default branch, so this always runs on main and fans out to the rest below.
   schedule:
     - cron: "0 0 * * *"
-  
+
   # Allows to manually run the Job at any time
   workflow_dispatch:
-  
+
   # Run on every push on the main branch
   push:
     branches:
       - main
-      - master
 
 jobs:
   generate:
+    name: Generate on main
     permissions:
       contents: write
     runs-on: ubuntu-latest
@@ -48,6 +49,44 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       # Commit snake svg directly to profile/ in main
+      - name: Commit snake SVGs to profile/
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/github-contribution-grid-snake.svg profile/github-contribution-grid-snake-dark.svg
+          git commit -m "Update contribution snake [skip ci]" || exit 0
+          git push
+
+  # Scheduled runs and push events never touch other branches, so every branch
+  # that renders the snake would otherwise show a frozen grid.
+  sync:
+    name: Sync profile/ to ${{ matrix.branch }}
+    needs: generate
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    strategy:
+      fail-fast: false
+      matrix:
+        branch:
+          - maximalism
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ matrix.branch }}
+
+      - name: Generate github-contribution-grid-snake.svg
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            profile/github-contribution-grid-snake.svg
+            profile/github-contribution-grid-snake-dark.svg?palette=github-dark
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Commit snake SVGs to profile/
         run: |
           git config user.name "github-actions[bot]"

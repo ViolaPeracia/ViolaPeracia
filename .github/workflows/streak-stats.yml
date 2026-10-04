@@ -12,6 +12,7 @@ on:
 
 jobs:
   build:
+    name: Generate on main
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -24,7 +25,41 @@ jobs:
         with:
           options: user=${{ github.repository_owner }}&theme=tokyonight&hide_border=true&background=0d1117&stroke=00ff99&ring=00ff99&fire=00ff99&dates=a9b1d6
           path: profile/streak.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+        token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit streak stats
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/streak.svg
+          git commit -m "Update streak stats [skip ci]" || exit 0
+          git push
+
+  # Scheduled runs only execute on the default branch, so branches that render
+  # the streak card would otherwise show a stale date range.
+  sync:
+    name: Sync profile/streak.svg to ${{ matrix.branch }}
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    strategy:
+      fail-fast: false
+      matrix:
+        branch:
+          - maximalism
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ matrix.branch }}
+
+      - name: Generate streak stats
+        uses: DenverCoder1/github-readme-streak-stats@main
+        with:
+          options: user=${{ github.repository_owner }}&theme=tokyonight&hide_border=true&background=0d1117&stroke=00ff99&ring=00ff99&fire=00ff99&dates=a9b1d6
+          path: profile/streak.svg
+        token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Commit streak stats
         run: |
