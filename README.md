@@ -1,28 +1,54 @@
-### hung_vux
+```text
+ _                                
+| |_ _  _ _ _  __ _ __ ___  ___ __
+| ' \ || | ' \/ _` |\ V / || \ \ /
+|_||_\_,_|_||_\__, |_\_/ \_,_/_\_\
+              |___/___|            
+```
 
-Computer science student building systems-level tools. Most of my work lives in
-the terminal — ANSI renderers, OS input hooks, and small sharp CLI utilities —
-and I would rather ship software where the data never has to leave the machine.
+<div align="center">
 
-- 🔧 **Build with** `Rust` · `Go` · `C` · `Tauri` · `SQLite`
-- 🖥️ **Runs on** `Arch Linux` · `Windows`
-- 🔐 **Care about** memory safety · local-first storage · zero telemetry
+**hung_vux** — computer science student & systems builder
 
-#### Projects
+`arch linux` · `rust` · `go` · `c` · `tauri` · `local-first`
 
-| Project | What it is | Stack |
-| :-- | :-- | :-- |
-| [ZenLavaTerm](https://github.com/ViolaPeracia/ZenLavaTerm) | Terminal lava lamp & metaball visualizer | `Rust` · `crossterm` |
-| [fetch-win](https://github.com/ViolaPeracia/fetch-win) | 3D terminal fetch with live system telemetry | `C` · `Win32` |
-| [password-manager-cli](https://github.com/ViolaPeracia/password-manager-cli) | Password store with Argon2id + AES-256-GCM | `Go` |
+</div>
+
+<table>
+<tr>
+<td width="33%" valign="top">
+
+**[ZenLavaTerm](https://github.com/ViolaPeracia/ZenLavaTerm)**
+
+Terminal lava lamp & metaball visualizer
+
+`rust` · `crossterm`
+
+</td>
+<td width="33%" valign="top">
+
+**[fetch-win](https://github.com/ViolaPeracia/fetch-win)**
+
+3D terminal fetch with live system telemetry
+
+`c` · `win32`
+
+</td>
+<td width="33%" valign="top">
+
+**[password-manager-cli](https://github.com/ViolaPeracia/password-manager-cli)**
+
+Password store with Argon2id + AES-256-GCM
+
+`go`
+
+</td>
+</tr>
+</table>
 
 <details>
-<summary>GitHub stats</summary>
+<summary>stats</summary>
 
 ![ViolaPeracia's GitHub stats](https://github-readme-stats-three-beryl-52.vercel.app/api?username=ViolaPeracia&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&title_color=00ff99&text_color=a9b1d6&icon_color=00ff99&bg_color=0d1117)
 
 </details>
-
-```text
-$ exit 0
-```
