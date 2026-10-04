@@ -74,6 +74,10 @@ Time-series air pollution analysis — Hanoi
 <details>
 <summary>streak</summary>
 
+<div align="center">
+
 ![ViolaPeracia's contribution streak](./profile/streak.svg)
+
+</div>
 
 </details>
