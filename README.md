@@ -69,6 +69,17 @@ Time-series air pollution analysis — Hanoi
 
 </td>
 </tr>
+<tr>
+<td colspan="2" valign="top">
+
+**[AI-NETWORK-ANOMALY-DETECTION-TRACEABILITY-MAIN](https://github.com/doctor-cato/AI-NETWORK-ANOMALY-DETECTION-TRACEABILITY-MAIN)** *(contributor)*
+
+Network-flow anomaly detection and traceability research prototype
+
+`python`
+
+</td>
+</tr>
 </table>
 
 <details>
