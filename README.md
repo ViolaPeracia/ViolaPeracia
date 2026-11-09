@@ -211,6 +211,18 @@ VIP rewards. 32 commits across two accounts.
 
 </td>
 </tr>
+<tr>
+<td colspan="2" valign="top">
+
+**[AI-NETWORK-ANOMALY-DETECTION-TRACEABILITY-MAIN](https://github.com/doctor-cato/AI-NETWORK-ANOMALY-DETECTION-TRACEABILITY-MAIN)**
+
+Research prototype for network-flow anomaly detection, behavioral correlation,
+risk scoring and traceability.
+
+`python`
+
+</td>
+</tr>
 </table>
 
 ## Stack
